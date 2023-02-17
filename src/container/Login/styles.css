@@ -1,0 +1,31 @@
+.wrapper-login {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+    margin: 0 auto;
+    border-radius: 1rem;
+    height: 20rem;
+}
+
+.wrapper-login__input {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper-login__input input{
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    border-color: rgb(242, 242, 242);
+}
+
+.wrapper-login button {
+    background-color: rgb(20, 20, 172);
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+}
